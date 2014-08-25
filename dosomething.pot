@@ -1,0 +1,2904 @@
+
+  
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  dosomething_action_guide/dosomething_action_guide.features.field_instance.inc: n/a
+#  dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc: n/a
+#  dosomething_static_content/dosomething_static_content.features.field_instance.inc: n/a
+#  dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc: n/a
+#  dosomething_reportback/dosomething_reportback.module: n/a
+#  dosomething_fact_page/dosomething_fact_page.features.field_instance.inc: n/a
+#  dosomething_home/dosomething_home.features.field_instance.inc: n/a
+#  dosomething_action_guide/dosomething_action_guide.features.inc: n/a
+#  dosomething_campaign/dosomething_campaign.features.field_instance.inc: n/a
+#  dosomething_campaign/dosomething_campaign.features.inc: n/a
+#  dosomething_campaign_group/dosomething_campaign_group.features.inc: n/a
+#  dosomething_campaign_run/dosomething_campaign_run.features.inc: n/a
+#  dosomething_fact/dosomething_fact.views_default.inc: n/a
+#  dosomething_fact_page/dosomething_fact_page.features.inc: n/a
+#  dosomething_home/dosomething_home.features.inc: n/a
+#  dosomething_image/dosomething_image.features.inc: n/a
+#  dosomething_image/dosomething_image.views_default.inc: n/a
+#  dosomething_static_content/dosomething_static_content.features.inc: n/a
+#  dosomething_user/dosomething_user.views_default.inc: n/a
+#  dosomething_action_guide/dosomething_action_guide.info: n/a
+#  dosomething_api/dosomething_api.info: n/a
+#  dosomething_campaign/dosomething_campaign.info: n/a
+#  dosomething_campaign_group/dosomething_campaign_group.info: n/a
+#  dosomething_campaign_run/dosomething_campaign_run.info: n/a
+#  dosomething_fact/dosomething_fact.info: n/a
+#  dosomething_fact_page/dosomething_fact_page.info: n/a
+#  dosomething_helpers/dosomething_helpers.info: n/a
+#  dosomething_home/dosomething_home.info: n/a
+#  dosomething_image/dosomething_image.info: n/a
+#  dosomething_mbp/dosomething_mbp.info: n/a
+#  dosomething_metatag/dosomething_metatag.info: n/a
+#  dosomething_reportback/dosomething_reportback.info: n/a
+#  dosomething_reward/dosomething_reward.info: n/a
+#  dosomething_search/dosomething_search.info: n/a
+#  dosomething_settings/dosomething_settings.info: n/a
+#  dosomething_shipment/dosomething_shipment.info: n/a
+#  dosomething_signup/dosomething_signup.info: n/a
+#  dosomething_sms/dosomething_sms.info: n/a
+#  dosomething_static_content/dosomething_static_content.info: n/a
+#  dosomething_taxonomy/dosomething_taxonomy.info: n/a
+#  dosomething_user/dosomething_user.info: n/a
+#  dosomething_zendesk/dosomething_zendesk.info: n/a
+#  dosomething_campaign/dosomething_campaign.admin.inc: n/a
+#  dosomething_signup/dosomething_signup.admin.inc: n/a
+#  dosomething_reportback/dosomething_reportback.views_default.inc: n/a
+#  dosomething_image/dosomething_image.features.field_instance.inc: n/a
+#  dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc: n/a
+#  dosomething_helpers/modal-links.tpl.php: n/a
+#  dosomething_sms/dosomething_sms.admin.inc: n/a
+#  dosomething_campaign/dosomething_campaign.pages.inc: n/a
+#  dosomething_campaign/dosomething_campaign.theme.inc: n/a
+#  dosomething_campaign/dosomething_campaign.module: n/a
+#  dosomething_campaign_group/dosomething_campaign_group.module: n/a
+#  dosomething_reward/dosomething_reward.views_default.inc: n/a
+#  dosomething_signup/dosomething_signup.views_default.inc: n/a
+#  dosomething_campaign_run/dosomething_campaign_run.module: n/a
+#  dosomething_fact/dosomething_fact.features.field_instance.inc: n/a
+#  dosomething_fact/dosomething_fact.features.inc: n/a
+#  dosomething_search/dosomething_search.views_default.inc: n/a
+#  dosomething_shipment/dosomething_shipment.views_default.inc: n/a
+#  dosomething_reward/dosomething_reward.forms.inc: n/a
+#  dosomething_fact/dosomething_fact.module: n/a
+#  dosomething_fact_page/dosomething_fact_page.module: n/a
+#  dosomething_helpers/dosomething_helpers.theme.inc: n/a
+#  dosomething_helpers/dosomething_helpers.variable.inc: n/a
+#  dosomething_helpers/dosomething_helpers.module: n/a
+#  dosomething_reportback/dosomething_reportback.forms.inc: n/a
+#  dosomething_signup/dosomething_signup.module: n/a
+#  dosomething_mbp/dosomething_mbp.admin.inc: n/a
+#  dosomething_mbp/dosomething_mbp.module: n/a
+#  dosomething_reportback/dosomething_reportback.features.field_instance.inc: n/a
+#  dosomething_signup/dosomething_signup.forms.inc: n/a
+#  dosomething_signup/includes/dosomething_signup.variable.inc: n/a
+#  dosomething_reward/dosomething_reward.module: n/a
+#  dosomething_shipment/dosomething_shipment.module: n/a
+#  dosomething_sms/dosomething_sms.module: n/a
+#  dosomething_reportback/theme/reportback-form-images.tpl.php: n/a
+#  dosomething_reward/dosomething_reward.admin.inc: n/a
+#  dosomething_shipment/dosomething_shipment.admin.inc: n/a
+#  dosomething_signup/dosomething_signup.signup_data_form.inc: n/a
+#  dosomething_user/dosomething_user.module: n/a
+#  dosomething_zendesk/dosomething_zendesk.module: n/a
+#  dosomething_reward/includes/dosomething_reward.inc: n/a
+#  dosomething_shipment/includes/dosomething_shipment.inc: n/a
+#  dosomething_search/dosomething_search.module: n/a
+#  dosomething_user/dosomething_user.address.inc: n/a
+#  dosomething_user/dosomething_user.features.field_instance.inc: n/a
+#  dosomething_zendesk/dosomething_zendesk.admin.inc: n/a
+#  dosomething_sms/plugins/activity/gateways/dosomething_sms_game_mobilecommons_paths/dosomething_sms_game_mobilecommons_paths.inc: n/a
+#  dosomething_sms/plugins/activity/gateways/start_campaign/start_campaign.inc: n/a
+#  dosomething_sms/plugins/activity/prompts/mms_prompt/mms_prompt.inc: n/a
+#  dosomething_sms/plugins/activity/prompts/mobilecommons_opt_in_prompt/mobilecommons_opt_in_prompt.inc: n/a
+#  dosomething_sms/plugins/activity/reportback/dosomething_sms_submit_reportback/dosomething_sms_submit_reportback.inc: n/a
+#  dosomething_user/dosomething_user.admin.inc: n/a
+#  dosomething_user/dosomething_user_valid_address.inc: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-08-25 21:36+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:344 dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:663 dosomething_static_content/dosomething_static_content.features.field_instance.inc:957
+msgid "Additional Text"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:345 dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:664 dosomething_static_content/dosomething_static_content.features.field_instance.inc:958
+msgid "Additional Text Title"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:346
+msgid "Description"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:347 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1392 dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:666 dosomething_reportback/dosomething_reportback.module:128 dosomething_static_content/dosomething_static_content.features.field_instance.inc:962
+msgid "Gallery"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:348 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1394 dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:668 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:632 dosomething_static_content/dosomething_static_content.features.field_instance.inc:970
+msgid "Intro"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:349 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1395 dosomething_static_content/dosomething_static_content.features.field_instance.inc:971
+msgid "Intro Image"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:350 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1396 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:633 dosomething_static_content/dosomething_static_content.features.field_instance.inc:972
+msgid "Intro Title"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:351 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:636 dosomething_home/dosomething_home.features.field_instance.inc:101 dosomething_static_content/dosomething_static_content.features.field_instance.inc:975
+msgid "Subtitle"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.field_instance.inc:352
+msgid "This is what will appear in \"Stuff You Need\" on every Campaign this Action Guide is linked to.  i.e. <i>These tips on making birthday cards</i>.\n<p>These should be in noun format NOT verb format i.e. <em>This script for calling shelters</em>. NOT <em>View the script</em>.</p>"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.inc:22 dosomething_campaign/dosomething_campaign.features.field_instance.inc:3034
+msgid "Action Guide"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.features.inc:26 dosomething_campaign/dosomething_campaign.features.inc:29 dosomething_campaign_group/dosomething_campaign_group.features.inc:29 dosomething_campaign_run/dosomething_campaign_run.features.inc:29 dosomething_fact/dosomething_fact.views_default.inc:168 dosomething_fact_page/dosomething_fact_page.features.inc:29 dosomething_home/dosomething_home.features.inc:26 dosomething_image/dosomething_image.features.inc:412 dosomething_image/dosomething_image.views_default.inc:215 dosomething_static_content/dosomething_static_content.features.inc:29 dosomething_user/dosomething_user.views_default.inc:236
+msgid "Title"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.info:0
+msgid "DoSomething Action Guide"
+msgstr ""
+
+#: dosomething_action_guide/dosomething_action_guide.info:0 dosomething_api/dosomething_api.info:0 dosomething_campaign/dosomething_campaign.info:0 dosomething_campaign_group/dosomething_campaign_group.info:0 dosomething_campaign_run/dosomething_campaign_run.info:0 dosomething_fact/dosomething_fact.info:0 dosomething_fact_page/dosomething_fact_page.info:0 dosomething_helpers/dosomething_helpers.info:0 dosomething_home/dosomething_home.info:0 dosomething_image/dosomething_image.info:0 dosomething_mbp/dosomething_mbp.info:0 dosomething_metatag/dosomething_metatag.info:0 dosomething_reportback/dosomething_reportback.info:0 dosomething_reward/dosomething_reward.info:0 dosomething_search/dosomething_search.info:0 dosomething_settings/dosomething_settings.info:0 dosomething_shipment/dosomething_shipment.info:0 dosomething_signup/dosomething_signup.info:0 dosomething_sms/dosomething_sms.info:0 dosomething_static_content/dosomething_static_content.info:0 dosomething_taxonomy/dosomething_taxonomy.info:0 dosomething_user/dosomething_user.info:0 dosomething_zendesk/dosomething_zendesk.info:0
+msgid "DoSomething"
+msgstr ""
+
+#: dosomething_api/dosomething_api.info:0
+msgid "DoSomething API"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:17
+msgid "Standard Campaigns"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:25 dosomething_reportback/dosomething_reportback.module:16;103
+msgid "Reportback"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:33
+msgid "Number of Participants Form Label"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:34
+msgid "If a Campaign is set to collect number of participants in the Reportback form, this label is displayed."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:42;81
+msgid "Confirmation Page"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:48;87
+msgid "Confirmation Page Title"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:54
+msgid "Confirmation Page Button Text"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:62 dosomething_signup/dosomething_signup.admin.inc:177
+msgid "SMS Games"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:68
+msgid "Signup Friends Form Button Label"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:69
+msgid "Text displayed on the Signup Friends Form.  Defaults to <em>Share</em> if not set."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:75
+msgid "Total participants in all SMS Games copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:76
+msgid "This copy is displayed in every SMS Game. e.g. <em>Join 250,000 people who have played since 2012!</em>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:93
+msgid "Anon User: Button Text"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:94
+msgid "Button label if an anonymous user is viewing the confirmation page -- links to the login/register modal."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:100
+msgid "Anon User: Call to Action"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:101
+msgid "Appears above the button if an anonymous user is viewing the confirmation page."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:108
+msgid "Closed Campaign"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:114
+msgid "Presignup Form Callout Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:116
+msgid "Callout text displayed for the Presignup Form."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:122
+msgid "Presignup Form Button Text"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:129
+msgid "Waiting for total copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:130
+msgid "Place [label] where you would like the label to be replaced."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:137
+msgid "Waiting for Winner Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:268 dosomething_reportback/dosomething_reportback.views_default.inc:300 dosomething_reportback/dosomething_reportback.module:541
+msgid "Reportbacks"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:274
+msgid "Collect number of participants"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.admin.inc:275
+msgid "If set, the Reportback form will include an additional question asking for number of participants."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3031
+msgid " Any tips for what the user should do after the action is finished. \"Thank everyone who helped you put on the drive with a handwritten note.\"\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3035 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1381
+msgid "Action Type"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3036 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1382
+msgid "Active Hours"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3037
+msgid "After Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3038
+msgid "After Header"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3039
+msgid "After Tips"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3040
+msgid "Answer"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3041 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1386 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:620 dosomething_static_content/dosomething_static_content.features.field_instance.inc:961
+msgid "Call to Action"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3042
+msgid "Campaign Specific Starter Statement"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3043
+msgid "Campaign Status"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3044
+msgid "Campaign type"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3045 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1388 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:622 dosomething_image/dosomething_image.features.field_instance.inc:332 dosomething_image/dosomething_image.views_default.inc:221 dosomething_user/dosomething_user.views_default.inc:239
+msgid "Cause"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3046
+msgid "Compels people to care about the issue. i.e. <i>1 in 3 homeless people are under the age of 18.</i>\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3049 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:623 dosomething_reportback/dosomething_reportback.views_default.inc:315 dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:293
+msgid "Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3050 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1389
+msgid "Cover Image"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3051
+msgid "Created By"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3052
+msgid "Created Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3053
+msgid "Do It Gallery"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3054
+msgid "Downloads"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3055
+msgid "During Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3056
+msgid "During Header"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3057
+msgid "During Tips"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3058
+msgid "External Location Finder URL"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3059 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1391
+msgid "FAQ"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3060 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:625 dosomething_helpers/modal-links.tpl.php:35
+msgid "Facts"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3061
+msgid "Header"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3062 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1393
+msgid "High Season"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3063
+msgid "Hype"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3064
+msgid "If there is a prize to be won, you must include a PDF of the official rules."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3065
+msgid "If there is a scholarship, enter the dollar amount here. If there is no scholarship, leave this field blank."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3066
+msgid "If there is no video, then this image is required."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3067
+msgid "If you are creating a standard campaign, leave this field blank. If you are creating an SMS game, you must fill it out. <strong>Limit: 25 characters</strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3068
+msgid "If you are not using a fact above, use this field. This is information that shows that the call to action is what to do to solve the issue.\n<br />\n<strong>Limit: 135 characters</strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3071
+msgid "If you need more clarification on the solution statement. (i.e., \"Last year, teens who got thumb socks were less likely to text and drive and more likely to ask others to stop.\")\n<br/>\n<strong> Limit: 135 characters </strong>\n"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3075
+msgid "Include any key words or phrases we want to associate for both external and internal search. i.e. Music, Hospital, Children, Kids for the campaign \"Put on a concert in a Children's Hospital\". Also could include celebrity tied to the campaign like Miley Cyrus.\n<br/>\n<strong> Please use commas to separate terms. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3078
+msgid "Include key phrases for SEO. Ex: <em>Boost your friends’ self-esteem. Prevent texting and driving. Speak out against sexist comments.</em>\r\n\r\n<p><strong>Limit: 45 characters</strong></p>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3081
+msgid "Include the link of the Google doc that proves the impact of the campaign."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3082
+msgid "Information that shows that the call to action is what to do to solve the issue. If using a fact, create a fact and reference it here."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3083
+msgid "Internal Location Finder Needed"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3084 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1397
+msgid "Is Staff Pick"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3085
+msgid "Is there a time when this campaign should be heavily weighted and highly promoted in the campaign finder? If so, include a start date. Includes things like staff pick campaigns, beach cleanups (summer months), campaign ideas for the holidays, etc."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3086
+msgid "Is there a time when this campaign should be lightly weighted in the campaign finder? If so include a start date. We don't want to be highlighting beach cleanups in the winter or Thanksgiving ideas in the summer."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3087
+msgid "Issue"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3088
+msgid "Know It Image"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3089
+msgid "Latest News"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3090
+msgid "Limit: 2 per campaign."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3091
+msgid "Location Finder Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3092
+msgid "Low Season"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3093
+msgid "Must start with a verb. Must end with a !. Encompass what the user needs to do before taking a picture i.e. Run Your Drive!, Hand Out Condoms!, Hide The Pills!\"\n<br/>\n<strong> Limit 25 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3096
+msgid "Must start with a verb. Should not have any punctuation. Encompass what the user should do after taking the picture i.e. Deliver The Food or Follow Up.\n<br/>\n<strong> Limit 25 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3099
+msgid "Official Rules"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3100
+msgid "Primary Action Type"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3101 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:634
+msgid "Primary Cause"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3102
+msgid "Problem Fact"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3103
+msgid "Proof of Impact"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3104
+msgid "Prove it Gallery"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3105
+msgid "Question"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3106
+msgid "Report Back Confirmation Sentence"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3107
+msgid "Report Back Copy"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3108
+msgid "Report Back Noun"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3109
+msgid "Report Back Verb"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3110 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1402
+msgid "Scholarship Amount"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3111
+msgid "Secondary Call to Action"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3112
+msgid "Select the user who created this campaign."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3113
+msgid "Sentence user sees after reporting back. I.e. You kicked ass making birthday cards for children in need.\n<br/>\n<strong> Limit 60 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3116
+msgid "Show End Date on Pitch & Action Page"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3117
+msgid "Snap a Pic"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3118
+msgid "Solution Fact"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3119
+msgid "Solution Statement"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3120 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1407 dosomething_static_content/dosomething_static_content.features.field_instance.inc:974
+msgid "Sponsors and Partners"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3121
+msgid "Starter Statement Header"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3122
+msgid "Stuff You Need"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3123
+msgid "Suggested template: <em>Sign up for facts on _______ [issue] and tips on _______ [action]. You’ll also receive [anything the user physically gets like a banner or a sign template]. Plus, you’ll enter for the chance to win _________ [incentive].</em>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3124
+msgid "Supporting Statement on the Solution"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3125 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1408 dosomething_image/dosomething_image.views_default.inc:222
+msgid "Tags"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3126
+msgid "The first thing they need to know. Could be general advice \"start planning two weeks in advance\" or pointing out the most important thing to do \"as you plan, don't forget to get permission!\".\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3129
+msgid "This describes the action the user must take after they take a picture. I.e. \"Drop off the food you collected at your local food bank at the time you decided. Then pat yourself on the back like the boss you are.\"; \"Check in with the senior center two weeks later. See if they’ve been acting safer with the tip sheets and condoms - no details needed.\".\n<br/>\n<strong> Limit 135 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3132
+msgid "This describes the action the user must take before they can take a picture. I.e. \"Set up a collection box outside the store. Tell people about your drive before they walk in - see the food pile up when they walk out.\"; \"Head to the senior center or retirement home and hand out condoms to seniors in need (get it). Don’t forget the instructions!\".\n<br/>\n<strong> Limit 135 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3135
+msgid "This is a list of the items you'll need to complete the action. This section should just be a set of bullet points (i.e. no sentence introducing the bullets).\n<p>\n<li>To create bullet points put \"* \" in front of the word. For instance <em>\"* paper * crayons * smiles\"</em> </li>\n<li>Capitalize the first letter of the first word in a list (i.e. <em>* Peanuts</em> NOT <em>* peanuts</em>).</li>\n<li>Don't use articles in a list (i.e. <em>* Car</em> NOT <em>* A Car</em>).</li>\n<li>Use periods after the end of a list item if it's a sentence or long fragment, but do not use a period if it's a single item.</li>\n</ul>\n</p>\n<strong> Limit: 135  </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3144
+msgid "This is a tip to help the member during this step of the action.\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3147
+msgid "This is for tips on promoting the campaign once it's live - hanging posters, to social media tips, to getting local press...\n<br/>\n<strong> Limit: 135 character </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3150
+msgid "This is one simple, specific action. It tells our members exactly what the action is they are taking during the campaign. i.e. <em>\"Create an action plan to protect prescription drugs in your home from young children.\"</em> or <em>\"Send a handmade birthday card to a child experiencing homelessness.\"</em>\n<p>This should always start with a verb and end with a period.</p>\n<p><strong> Limit: 65 characters </strong></p>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3153
+msgid "This is the step where the user should take a photo confirming that their action took place. i.e. Take a photo of the jeans you collected and everyone who donated.\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3156
+msgid "This is to describe what the location should be used for and any notes the user needs when using the finder. i.e. <i>Find a local food bank that accepts donations. Call them to arrange drop off in advance.</i><br>\n<strong>Limit 120 characters.</strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3158
+msgid "This should include advice about both timing and location. \"Put your donation box in a place where lots of people walk by.\" \"Have your drive run for at least a week to give people a chance to donate.\"\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3161
+msgid "This should include info on people you may need to involve. Ranges from getting permission from your principal, to getting your artsy friend involved to make a compelling poster, to how you pick a friend who texts and drives for Thumb Wars.\n<br/>\n<strong> Limit: 135 characters </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3164
+msgid "This will open up as a separate modal. Only fill this out if you have 3+ stats you want the user to learn about."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3165
+msgid "Time and Place"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3166
+msgid "Use active verbs.\n</br>\n<strong> Limit 20 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3169
+msgid "Use active verbs.\n<br/>\n<strong> Limit 20 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3172
+msgid "Used by Staff Picks.  This copy will be displayed within the Email Digest.\r\n\r\n<p><b>Limit: 140 characters.</b></p>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3175
+msgid "VIPs"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3176 dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1413 dosomething_static_content/dosomething_static_content.features.field_instance.inc:977 dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:300
+msgid "Video"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3177
+msgid "What You Get"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3178
+msgid "i.e. JEANS collected, SENIOR CITIZENS educated, FLYERS posted. Your responses should not be in all caps though, instead write - Jeans"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.field_instance.inc:3179
+msgid "i.e. jeans COLLECTED, senior citizens EDUCATED, flyers POSTED. Your responses should not be in all caps though, instead write - Collected"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.features.inc:25 dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:665 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:621 dosomething_sms/dosomething_sms.admin.inc:83
+msgid "Campaign"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.pages.inc:60
+msgid "Back to @title"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.theme.inc:267
+msgid "Submit Your Pic"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.theme.inc:270
+msgid "Update Submission"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:17
+msgid "Title - i.e. \"Protect your Pills\", \"Birthday Mail\", or \"Teens for Jeans\" <br/><strong> Limit: 20 characters. </strong>"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:41
+msgid "Campaign status"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:100
+msgid "Edit campaign overrides"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:111
+msgid "DS Scholarships"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:116
+msgid "DS Submit Campaign Idea"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:158
+msgid "No active scholarships right now, check back!"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:31
+msgid "Campaign settings"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:32
+msgid "Admin form to set campaign variables."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:42
+msgid "Admin page to display campaign node information."
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:52
+msgid "Pitch"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:62
+msgid "Closed"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.module:72
+msgid "Custom Settings"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.info:0
+msgid "Dosomething Campaign"
+msgstr ""
+
+#: dosomething_campaign/dosomething_campaign.info:0
+msgid "Campaign node type"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1383
+msgid "Additional Text Copy"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1384
+msgid "Additional Text Header"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1385
+msgid "Additional Text Image"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1387 dosomething_home/dosomething_home.features.field_instance.inc:100
+msgid "Campaigns"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1390
+msgid "Display Signup Form?"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1398
+msgid "Post Signup Copy"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1399
+msgid "Post Signup Title"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1400
+msgid "Pre Launch Copy"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1401
+msgid "Pre Launch Title"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1403
+msgid "Sets the notification message to be displayed after the user submits the signup form."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1404
+msgid "Should the Campaign Group Signup Form should be displayed?"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1405
+msgid "Show End Date"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1406
+msgid "Signup Confirmation Message"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1409
+msgid "The Post Signup fields are displayed if the user has signed up for the Grouped Campaign."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1410
+msgid "The Pre Launch Title and Copy fields will be displayed if there are no child campaigns which are published."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1411
+msgid "This copy will be pulled into the transactional email template when a user signs up for the campaign group."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1412
+msgid "Transactional Email Copy"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.field_instance.inc:1414
+msgid "When adding campaigns, make sure to add either 4, 5, 6, 9, 10, or 13 campaigns."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.inc:25
+msgid "Grouped Campaign"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.features.inc:27
+msgid "A grouping of campaigns, which can be configured to collect signups."
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.module:168
+msgid "Stay Tuned"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.info:0
+msgid "DoSomething Campaign Group"
+msgstr ""
+
+#: dosomething_campaign_group/dosomething_campaign_group.info:0
+msgid "Campaign group content type and associated code"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:667 dosomething_static_content/dosomething_static_content.features.field_instance.inc:963
+msgid "Gallery Image"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:669
+msgid "Klout Gallery"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:670
+msgid "Reference the campaign this run is associated with. Start typing the campaign name and select the appropriate one."
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:671
+msgid "Total Participants"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:672
+msgid "Total Quantity"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:673
+msgid "Total Quantity Label"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:674 dosomething_user/dosomething_user.views_default.inc:238
+msgid "Type"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:675 dosomething_reportback/dosomething_reportback.views_default.inc:317 dosomething_reward/dosomething_reward.views_default.inc:217 dosomething_signup/dosomething_signup.views_default.inc:186
+msgid "User"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:676
+msgid "User First Name"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:677
+msgid "User First Name should only be needed if there isn't a user to lookup. If there is a user to lookup, then we'll pull in their first name from the UID."
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:678
+msgid "Winner Description"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:679
+msgid "Winner Quote"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:680
+msgid "Winner Type"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.field_instance.inc:681
+msgid "Winners"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.inc:25
+msgid "Campaign Run"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.features.inc:27
+msgid "Contains content for a specific run of a Campaign, e.g. <em>Comeback Clothes 2014.</em>"
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.module:237
+msgid "The title is not user facing, it just helps when searching for content. Suggestion: Use campaign name and year campaign ended (i.e. Comeback Clothes 2014)."
+msgstr ""
+
+#: dosomething_campaign_run/dosomething_campaign_run.info:0
+msgid "DoSomething Campaign Run"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.features.field_instance.inc:55 dosomething_fact/dosomething_fact.views_default.inc:169
+msgid "Source"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.features.inc:29;33 dosomething_fact/dosomething_fact.views_default.inc:171 dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:624
+msgid "Fact"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.features.inc:31
+msgid "A Fact. Referenced by other content types such as Campaigns and Fact Pages."
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:153 dosomething_image/dosomething_image.views_default.inc:200 dosomething_reportback/dosomething_reportback.views_default.inc:299 dosomething_reward/dosomething_reward.views_default.inc:201 dosomething_search/dosomething_search.views_default.inc:93 dosomething_shipment/dosomething_shipment.views_default.inc:230 dosomething_signup/dosomething_signup.views_default.inc:170 dosomething_user/dosomething_user.views_default.inc:221;411
+msgid "Master"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:154
+msgid "Fact Search"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:155 dosomething_image/dosomething_image.views_default.inc:202 dosomething_reportback/dosomething_reportback.views_default.inc:301 dosomething_reward/dosomething_reward.views_default.inc:203 dosomething_search/dosomething_search.views_default.inc:95 dosomething_shipment/dosomething_shipment.views_default.inc:232 dosomething_signup/dosomething_signup.views_default.inc:171 dosomething_user/dosomething_user.views_default.inc:223;413
+msgid "more"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:156 dosomething_image/dosomething_image.views_default.inc:203 dosomething_reportback/dosomething_reportback.views_default.inc:302 dosomething_reward/dosomething_reward.views_default.inc:204 dosomething_search/dosomething_search.views_default.inc:96 dosomething_shipment/dosomething_shipment.views_default.inc:233 dosomething_signup/dosomething_signup.views_default.inc:172 dosomething_user/dosomething_user.views_default.inc:224;414
+msgid "Apply"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:157 dosomething_image/dosomething_image.views_default.inc:204 dosomething_reportback/dosomething_reportback.views_default.inc:303 dosomething_reward/dosomething_reward.views_default.inc:205 dosomething_search/dosomething_search.views_default.inc:97 dosomething_shipment/dosomething_shipment.views_default.inc:234 dosomething_signup/dosomething_signup.views_default.inc:173 dosomething_user/dosomething_user.views_default.inc:225;415
+msgid "Reset"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:158 dosomething_image/dosomething_image.views_default.inc:205 dosomething_reportback/dosomething_reportback.views_default.inc:304 dosomething_reward/dosomething_reward.views_default.inc:206 dosomething_search/dosomething_search.views_default.inc:98 dosomething_shipment/dosomething_shipment.views_default.inc:235 dosomething_signup/dosomething_signup.views_default.inc:174 dosomething_user/dosomething_user.views_default.inc:226;416
+msgid "Sort by"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:159 dosomething_image/dosomething_image.views_default.inc:206 dosomething_reportback/dosomething_reportback.views_default.inc:305 dosomething_reward/dosomething_reward.views_default.inc:207 dosomething_search/dosomething_search.views_default.inc:99 dosomething_shipment/dosomething_shipment.views_default.inc:236 dosomething_signup/dosomething_signup.views_default.inc:175 dosomething_user/dosomething_user.views_default.inc:227;417
+msgid "Asc"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:160 dosomething_image/dosomething_image.views_default.inc:207 dosomething_reportback/dosomething_reportback.views_default.inc:306 dosomething_reward/dosomething_reward.views_default.inc:208 dosomething_search/dosomething_search.views_default.inc:100 dosomething_shipment/dosomething_shipment.views_default.inc:237 dosomething_signup/dosomething_signup.views_default.inc:176 dosomething_user/dosomething_user.views_default.inc:228;418
+msgid "Desc"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:161 dosomething_image/dosomething_image.views_default.inc:208 dosomething_reportback/dosomething_reportback.views_default.inc:307 dosomething_reward/dosomething_reward.views_default.inc:209 dosomething_shipment/dosomething_shipment.views_default.inc:238 dosomething_signup/dosomething_signup.views_default.inc:177 dosomething_user/dosomething_user.views_default.inc:229;419
+msgid "Items per page"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:162 dosomething_image/dosomething_image.views_default.inc:209 dosomething_reportback/dosomething_reportback.views_default.inc:308 dosomething_reward/dosomething_reward.views_default.inc:210 dosomething_shipment/dosomething_shipment.views_default.inc:239 dosomething_signup/dosomething_signup.views_default.inc:178 dosomething_user/dosomething_user.views_default.inc:230;420
+msgid "- All -"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:163 dosomething_image/dosomething_image.views_default.inc:210 dosomething_reportback/dosomething_reportback.views_default.inc:309 dosomething_reward/dosomething_reward.views_default.inc:211 dosomething_shipment/dosomething_shipment.views_default.inc:240 dosomething_signup/dosomething_signup.views_default.inc:179 dosomething_user/dosomething_user.views_default.inc:231;421
+msgid "Offset"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:164 dosomething_image/dosomething_image.views_default.inc:211 dosomething_reportback/dosomething_reportback.views_default.inc:310 dosomething_reward/dosomething_reward.views_default.inc:212 dosomething_shipment/dosomething_shipment.views_default.inc:241 dosomething_signup/dosomething_signup.views_default.inc:180 dosomething_user/dosomething_user.views_default.inc:232;422
+msgid "« first"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:165 dosomething_image/dosomething_image.views_default.inc:212 dosomething_reportback/dosomething_reportback.views_default.inc:311 dosomething_reward/dosomething_reward.views_default.inc:213 dosomething_shipment/dosomething_shipment.views_default.inc:242 dosomething_signup/dosomething_signup.views_default.inc:181 dosomething_user/dosomething_user.views_default.inc:233;423
+msgid "‹ previous"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:166 dosomething_image/dosomething_image.views_default.inc:213 dosomething_reportback/dosomething_reportback.views_default.inc:312 dosomething_reward/dosomething_reward.views_default.inc:214 dosomething_shipment/dosomething_shipment.views_default.inc:243 dosomething_signup/dosomething_signup.views_default.inc:182 dosomething_user/dosomething_user.views_default.inc:234;424
+msgid "next ›"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:167 dosomething_image/dosomething_image.views_default.inc:214 dosomething_reportback/dosomething_reportback.views_default.inc:313 dosomething_reward/dosomething_reward.views_default.inc:215 dosomething_shipment/dosomething_shipment.views_default.inc:244 dosomething_signup/dosomething_signup.views_default.inc:183 dosomething_user/dosomething_user.views_default.inc:235;425
+msgid "last »"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:170 dosomething_reward/dosomething_reward.forms.inc:90
+msgid "Created"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.views_default.inc:172 dosomething_image/dosomething_image.views_default.inc:225 dosomething_reportback/dosomething_reportback.views_default.inc:333 dosomething_reward/dosomething_reward.views_default.inc:231 dosomething_search/dosomething_search.views_default.inc:104 dosomething_shipment/dosomething_shipment.views_default.inc:260 dosomething_signup/dosomething_signup.views_default.inc:195 dosomething_user/dosomething_user.views_default.inc:244;433
+msgid "Page"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.module:16
+msgid "Use numerals for all numbers. i.e. <em>\"1 in 3\"</em> or <em>\"1/4\"</em> <strong>NOT</strong> <em>\"one in three\"</em> or <em>\"one-fourths\"</em>. <p>Also for percentages always use %, never spell out \"percent\".</p>"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.info:0
+msgid "DoSomething Fact"
+msgstr ""
+
+#: dosomething_fact/dosomething_fact.info:0
+msgid "Provides a custom Fact Entity and its functionality."
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:619 dosomething_static_content/dosomething_static_content.features.field_instance.inc:960
+msgid "CTA Link"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:626
+msgid "Facts Image"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:627 dosomething_static_content/dosomething_static_content.features.field_instance.inc:967
+msgid "Hero Image"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:628
+msgid "If set, the [link] text in the copy will be replaced with a link to this campaign."
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:629
+msgid "If set, this copy will be displayed after the Fact.\n\nYou can use [link] to link to the Campaign selected in the Campaign field, e.g. <em>Want to find out more? Sign up for [link] today!</em>"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:635
+msgid "Select the Fact to display."
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.field_instance.inc:637
+msgid "Use an internal URL such as <em>node/711</em> or <em>campaigns</em>.  \n\n<p>Do not include a leading slash, e.g. Enter <em>campaigns</em> , not <em>/campaigns</em></p>"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.inc:25
+msgid "Fact Page"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.features.inc:27
+msgid "\"11 Facts\" page type"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.module:15
+msgid "DS Fact Page List"
+msgstr ""
+
+#: dosomething_fact_page/dosomething_fact_page.info:0
+msgid "DoSomething Fact Page"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:3
+msgid "Check out our FAQs"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:7
+msgid "Learn more about @issue"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:14
+msgid "Why we &lt;3 @partner"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:23
+msgid "FAQs"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:28;50;62
+msgid "Back to main page"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:43
+msgid "Sources"
+msgstr ""
+
+#: dosomething_helpers/modal-links.tpl.php:58
+msgid "We &lt;3 @partner"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.theme.inc:151;157
+msgid "and"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:16
+msgid "Styles"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:22
+msgid "Alt color"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:23
+msgid "Hex value to use for headlines."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:31
+msgid "Alt BG File fid"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:32
+msgid "File fid to display for BG pattern."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:39
+msgid "Alt header Image nid"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:40
+msgid "An Image Node nid to display in the page header."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:46
+msgid "Signup Form Button Label"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:47
+msgid "Overrides the label on the Signup Form button."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:168
+msgid "Third Party Opt-ins"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:169
+msgid "Custom campaign opt-in values."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:178
+msgid "Mobilecommons Alpha Opt-in Path"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:185
+msgid "Mobilecommons Beta Opt-in Path"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:194
+msgid "MailChimp Grouping ID"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:201
+msgid "MailChimp Group Name"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.variable.inc:208
+msgid "MobileCommons Opt-in Path"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.module:131
+msgid "Not referenced in @field."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.module:18
+msgid "DoSomething config"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.module:19
+msgid "Configuration for DoSomething custom functionality."
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.info:0
+msgid "Dosomething helpers"
+msgstr ""
+
+#: dosomething_helpers/dosomething_helpers.info:0
+msgid "Collection of helper functions for DoSomething"
+msgstr ""
+
+#: dosomething_home/dosomething_home.features.inc:22
+msgid "Home"
+msgstr ""
+
+#: dosomething_home/dosomething_home.features.inc:24
+msgid "powers the home page."
+msgstr ""
+
+#: dosomething_home/dosomething_home.info:0
+msgid "DoSomething Home"
+msgstr ""
+
+#: dosomething_home/dosomething_home.info:0
+msgid "provides the homepage"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:333
+msgid "Check this if the top of the image is dark (and therefore the navigation text should be white)."
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:334
+msgid "Dark Image"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:335 dosomething_image/dosomething_image.views_default.inc:223
+msgid "Image Tags"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:336 dosomething_image/dosomething_image.views_default.inc:219
+msgid "Landscape Crop"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:337 dosomething_image/dosomething_image.views_default.inc:220
+msgid "Portrait Crop"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:338 dosomething_image/dosomething_image.views_default.inc:218
+msgid "Square Crop"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.field_instance.inc:339
+msgid "Thumbnail"
+msgstr ""
+
+#: dosomething_image/dosomething_image.features.inc:408 dosomething_reportback/dosomething_reportback.forms.inc:341 dosomething_reportback/dosomething_reportback.views_default.inc:318 dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:295
+msgid "Image"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:201
+msgid "Search Images"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:216 dosomething_user/dosomething_user.views_default.inc:237
+msgid "Edit link"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:217 dosomething_signup/dosomething_signup.module:266
+msgid "Nid"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:224
+msgid "Image Tags (field_image_tags)"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:226
+msgid "Entity Reference"
+msgstr ""
+
+#: dosomething_image/dosomething_image.views_default.inc:227
+msgid "([nid])"
+msgstr ""
+
+#: dosomething_image/dosomething_image.info:0
+msgid "Dosomething Image"
+msgstr ""
+
+#: dosomething_image/dosomething_image.info:0
+msgid "Provides an image type with various crops."
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.admin.inc:15
+msgid "Message Broker Campaign API"
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.admin.inc:19
+msgid "Send campaign details to Message Broker Campaign API"
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.admin.inc:24
+msgid "Log Message Broker Producer requests."
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.admin.inc:26 dosomething_signup/dosomething_signup.admin.inc:214
+msgid "This should be disabled on production."
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.module:14 dosomething_mbp/dosomething_mbp.info:0
+msgid "DoSomething MBP"
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.module:15
+msgid "DoSomething MBP (Message Broker Producer) settings."
+msgstr ""
+
+#: dosomething_mbp/dosomething_mbp.info:0
+msgid "Functionality specific to DoSomething for producing requests to Message Broker Producer."
+msgstr ""
+
+#: dosomething_metatag/dosomething_metatag.info:0
+msgid "DoSomething Metatag"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.features.field_instance.inc:124
+msgid "Editorial Caption"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.features.field_instance.inc:125
+msgid "Please select at least one."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.features.field_instance.inc:126
+msgid "Reasons"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.features.field_instance.inc:127 dosomething_reportback/dosomething_reportback.forms.inc:285
+msgid "Weight"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:20
+msgid "Submit your pic"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:29
+msgid "Update submission"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:45
+msgid "Upload a pic"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:54;81
+msgid "Enter # here"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:60
+msgid "Total # of @noun @verb"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:73
+msgid "Total # of people participated"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:96
+msgid "Write something..."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:101
+msgid "Why is this important to you?"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:121 dosomething_reward/dosomething_reward.forms.inc:50
+msgid "You are no longer logged in. Please log in."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:170
+msgid "There was an error. Please try again."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:175
+msgid "Please upload an image."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:214
+msgid "Are you sure you want to delete this reportback?  This cannot be undone."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:220 dosomething_reportback/dosomething_reportback.module:119 dosomething_signup/dosomething_signup.forms.inc:356
+msgid "Delete"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:237
+msgid "Reportback deleted."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:241 dosomething_signup/dosomething_signup.module:156 dosomething_signup/includes/dosomething_signup.variable.inc:49
+msgid "There was an error processing your request."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:278
+msgid "View reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:281
+msgid "Remove"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:295 dosomething_signup/dosomething_signup.admin.inc:56 dosomething_sms/dosomething_sms.admin.inc:124
+msgid "Save"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:299
+msgid "Cancel"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:322
+msgid "No reportback images have been added to the gallery."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:341
+msgid "Caption"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.forms.inc:371
+msgid "Gallery updated."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:314 dosomething_signup/dosomething_signup.views_default.inc:184
+msgid "Displaying @start - @end of @total"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:316
+msgid "No reportbacks found."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:319
+msgid "flag"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:320
+msgid "RB Flag"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:321
+msgid "Fid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:322
+msgid "Rbid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:323 dosomething_reward/dosomething_reward.views_default.inc:219 dosomething_shipment/dosomething_shipment.views_default.inc:248 dosomething_signup/dosomething_signup.views_default.inc:188
+msgid "."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:324 dosomething_signup/dosomething_signup.views_default.inc:189
+msgid "Submitted"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:325 dosomething_reward/dosomething_reward.views_default.inc:222 dosomething_reward/dosomething_reward.module:114 dosomething_shipment/dosomething_shipment.views_default.inc:251 dosomething_shipment/dosomething_shipment.module:86 dosomething_signup/dosomething_signup.views_default.inc:190 dosomething_signup/dosomething_signup.module:285 dosomething_user/dosomething_user.views_default.inc:426
+msgid "Uid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:326 dosomething_signup/dosomething_signup.views_default.inc:191
+msgid "E-mail"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:327 dosomething_reportback/dosomething_reportback.module:584
+msgid "Remote address"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:328 dosomething_reportback/dosomething_reportback.module:79
+msgid "Quantity"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:329 dosomething_reward/dosomething_reward.views_default.inc:220 dosomething_shipment/dosomething_shipment.views_default.inc:249
+msgid ","
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:330 dosomething_signup/dosomething_signup.views_default.inc:192
+msgid "All"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:331
+msgid "Reportbacks: %1"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.views_default.inc:332
+msgid "Flagged"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:38;565;566
+msgid "Reportback rbid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:39
+msgid "The unique ID of the reportback."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:45
+msgid "Node nid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:46
+msgid "The node nid of the reportback."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:54 dosomething_reward/dosomething_reward.forms.inc:83
+msgid "User uid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:55
+msgid "The user uid of the reportback."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:63
+msgid "Created Date"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:64
+msgid "Date the reportback was created."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:71
+msgid "Last Updated"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:72
+msgid "Date the reportback was last updated."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:80
+msgid "The number of reportback_nouns reportback_verbed."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:87
+msgid "Why Participated"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:88
+msgid "Why the user participated."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:167
+msgid "Delete reportback files"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:168
+msgid "If checked, the submitted reportback files will permanently be deleted."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:168
+msgid "This cannot be undone."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:254
+msgid "Delete any reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:257
+msgid "Delete own reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:260
+msgid "Edit any reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:263
+msgid "Edit own reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:266
+msgid "View any reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:269
+msgid "View own reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:544
+msgid "Reportback images"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:545
+msgid "Image uploads for reportbacks."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:559
+msgid "Reportback file rbid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:560
+msgid "Reportback file rid that references a reportback."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:567
+msgid "The Reportback rbid the File belongs to."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:571
+msgid "Reportback image fid"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:572
+msgid "The fid of the Reportback image file."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:580
+msgid "Reportback image"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:585
+msgid "IP address which submitted the reportback file."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:845
+msgid "The uid of the user reporting back."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:852
+msgid "The nid of node the user is reporting back for."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:859
+msgid "The reportback quantity."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:866
+msgid "The reportback reason."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:873
+msgid "The URL of the reportback image."
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.module:110 dosomething_reward/dosomething_reward.views_default.inc:230 dosomething_sms/dosomething_sms.admin.inc:47 dosomething_sms/dosomething_sms.module:39
+msgid "Edit"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.info:0
+msgid "DoSomething Reportback"
+msgstr ""
+
+#: dosomething_reportback/dosomething_reportback.info:0
+msgid "Provides Reportback entity and functionality."
+msgstr ""
+
+#: dosomething_reportback/theme/reportback-form-images.tpl.php:1
+msgid "Last updated:"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:14
+msgid "Reportback Count"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:20
+msgid "Enable Reportback Count Rewards"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:22
+msgid "When checked, users can earn a Reportback Count Reward."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:26
+msgid "Redeem Page"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:32
+msgid "Redeem Form"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:40
+msgid "Redeem Page Title"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:48
+msgid "Redeem Page Subtitle"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:55
+msgid "Redeem Page Header"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:56
+msgid "Redeem Page content header."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:63
+msgid "Redeem Page Copy"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:64
+msgid "Redeem Page content copy."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:72
+msgid "Redeem Page Image"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:73
+msgid "Redeem Page content image."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:83
+msgid "Redeem Form Link Text"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:84
+msgid "Link text that opens the Redeem Form modal."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:92
+msgid "Redeem Form Header"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:93
+msgid "Header text of the Redeem Form modal."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:102
+msgid "Redeem Form Copy"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:103
+msgid "Copy displayed in the Redeem Form modal."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:111
+msgid "Redeem Form Button Label"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:112
+msgid "Label displayed on the Redeem Form submit button."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:121
+msgid "Redeem Form Confirmation Message"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:122
+msgid "Message displayed after submitting the Redeem Form."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:129 dosomething_shipment/dosomething_shipment.admin.inc:33 dosomething_signup/dosomething_signup.admin.inc:202
+msgid "Logging"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:134
+msgid "Log Rewards."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.admin.inc:136
+msgid "Logs Reward activity. This should be disabled on production."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.forms.inc:92;99
+msgid "Unix timestamp when Reward was created."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.forms.inc:97 dosomething_reward/dosomething_reward.views_default.inc:228
+msgid "Redeemed"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.forms.inc:106 dosomething_signup/dosomething_signup.signup_data_form.inc:183;318 dosomething_user/dosomething_user.module:902 dosomething_zendesk/dosomething_zendesk.module:145
+msgid "Submit"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.forms.inc:125
+msgid "Updated."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:202 dosomething_reward/dosomething_reward.module:81;84
+msgid "Rewards"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:216
+msgid "Displaying @start - @end of @total Rewards"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:218 dosomething_reward/dosomething_reward.module:95;110
+msgid "Reward id"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:221 dosomething_reward/dosomething_reward.module:181 dosomething_shipment/dosomething_shipment.views_default.inc:250 dosomething_shipment/dosomething_shipment.module:136
+msgid "Date created"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:223 dosomething_shipment/dosomething_shipment.views_default.inc:252 dosomething_user/dosomething_user.views_default.inc:427
+msgid "Email"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:224 dosomething_reward/dosomething_reward.module:133
+msgid "Reward type"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:225
+msgid "Entity Type"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:226 dosomething_shipment/dosomething_shipment.views_default.inc:254
+msgid "Entity"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:227
+msgid "[entity_type]/[entity_id]"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.views_default.inc:229 dosomething_sms/dosomething_sms.admin.inc:31
+msgid "Op"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:43
+msgid "Reward"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:85
+msgid "Dosomething Reward table."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:96
+msgid "Reward id."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:115 dosomething_shipment/dosomething_shipment.module:87 dosomething_signup/dosomething_signup.module:286
+msgid "User id."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:129
+msgid "Reward User"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:134
+msgid "Reward type."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:150
+msgid "Reward Entity type"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:151
+msgid "The type of the Entity associated with the Reward."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:167
+msgid "Reward Entity id"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:168
+msgid "The id of the Entity associated with the Reward."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:182 dosomething_shipment/dosomething_shipment.module:137
+msgid "Date created."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:195
+msgid "Date redeemed"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:196
+msgid "Date redeemed."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:19 dosomething_reward/dosomething_reward.info:0
+msgid "DoSomething Reward"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:20
+msgid "Admin configuration form for DoSomething Reward."
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.module:28
+msgid "Edit Reward"
+msgstr ""
+
+#: dosomething_reward/dosomething_reward.info:0
+msgid "Provides Reward entity and functionality."
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:26;46;71;82;92
+msgid "dosomething_reward"
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:26
+msgid "Redeem time @time"
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:46
+msgid "Shipment entity_create: @entity"
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:71 dosomething_shipment/includes/dosomething_shipment.inc:41
+msgid "Save: @entity"
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:82
+msgid "Delete reward: @ids"
+msgstr ""
+
+#: dosomething_reward/includes/dosomething_reward.inc:92
+msgid "Delete shipment: @entity"
+msgstr ""
+
+#: dosomething_search/dosomething_search.views_default.inc:94
+msgid "Explore Campaigns"
+msgstr ""
+
+#: dosomething_search/dosomething_search.views_default.inc:101
+msgid "###Make the world suck less. Choose a campaign below to get started."
+msgstr ""
+
+#: dosomething_search/dosomething_search.views_default.inc:102
+msgid "<img src=\"[ss_field_search_image_300x300]\"/>"
+msgstr ""
+
+#: dosomething_search/dosomething_search.views_default.inc:103
+msgid "[label]"
+msgstr ""
+
+#: dosomething_search/dosomething_search.module:237
+msgid "Please enter some keywords."
+msgstr ""
+
+#: dosomething_search/dosomething_search.info:0
+msgid "DoSomething Search"
+msgstr ""
+
+#: dosomething_settings/dosomething_settings.info:0
+msgid "DoSomething Settings"
+msgstr ""
+
+#: dosomething_settings/dosomething_settings.info:0
+msgid "exports sitewide settings and strongarm variables."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.admin.inc:14
+msgid "Dope Shirt Image"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.admin.inc:24
+msgid "Social Action Shirt Image"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.admin.inc:38
+msgid "Log Shipments."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.admin.inc:40
+msgid "Logs Shipment activity. This should be disabled on production."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:231 dosomething_shipment/dosomething_shipment.module:53;56
+msgid "Shipments"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:245
+msgid "Displaying @start - @end of @total Shipments"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:246 dosomething_shipment/dosomething_shipment.module:101
+msgid "Shipment User"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:247 dosomething_shipment/dosomething_shipment.module:67;82
+msgid "Shipment id"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:253
+msgid "Entity type"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:255
+msgid "[entity_type]/[entity_id] "
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:256
+msgid "Item"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:257
+msgid "Item option"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:258
+msgid "Additional item"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.views_default.inc:259
+msgid "Additional item option"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:17
+msgid "Shipment"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:57
+msgid "Dosomething Shipment table."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:68
+msgid "Shipment id."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:105
+msgid "Shipment Entity type"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:106
+msgid "The type of the Entity associated with the Shipment."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:122
+msgid "Shipment Entity id"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:123
+msgid "The id of the Entity associated with the Shipment."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:150;151
+msgid "Shipment item"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:167;201
+msgid "Shipment item option"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:168
+msgid "Shipment item option, if applicable."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:184
+msgid "Shipment additional item"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:185
+msgid "Shipment additional item, if applicable."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:202
+msgid "Shipment additional item size, if applicable."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:250
+msgid "Banner"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:251
+msgid "Shirt"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:252
+msgid "Thumb Socks"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:272;277
+msgid "Your Shirt"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:284
+msgid "Your Shirt Size"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:289;294
+msgid "Your Friend's Shirt"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:301
+msgid "Your Friend's Shirt Size"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:311
+msgid "Dope shirt"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:319
+msgid "Social action shirt"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:37 dosomething_shipment/dosomething_shipment.info:0
+msgid "DoSomething Shipment"
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.module:38
+msgid "Admin configuration form for DoSomething Shipment."
+msgstr ""
+
+#: dosomething_shipment/dosomething_shipment.info:0
+msgid "Provides Shipment entity and functionality."
+msgstr ""
+
+#: dosomething_shipment/includes/dosomething_shipment.inc:41
+msgid "dosomething_shipment"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:15
+msgid "Numeric Mobilecommons opt-in path when user registers for site."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:19
+msgid "Mobilecommons Opt-In Path: User registration"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:25
+msgid "Numeric Mobilecommons opt-in path for general campaign signup."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:29
+msgid "Mobilecommons Opt-In Path: General campaign signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:98
+msgid "Configuration saved."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:115
+msgid "Undefined"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:144
+msgid "The numeric Grouping ID for the Group Name."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:145
+msgid "The alphanumeric Interest Group Name."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:146
+msgid "The numeric Mobilecommons opt-in path."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:149
+msgid "Single-player: Mobile Commons Alpha Opt-In Path"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:150
+msgid "Single-player: Mobile Commons Beta Opt-In Path"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:151
+msgid "Multi-player: Story Id"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:152
+msgid "Multi-player: Story Type"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:166
+msgid "Staff Picks"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:171
+msgid "Grouped Campaigns"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:190
+msgid "SMS Game"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:196
+msgid "SMS Multi-player Game Endpoint"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:197
+msgid "URL to post a multi-player SMS Game request, e.g. <em>http://ds-heroku.biz/sms-multiplayer-game/create</em>"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:206
+msgid "Log Signups."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:208
+msgid "Logs Signup entity activity. This should be disabled on production."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.admin.inc:212
+msgid "Log Mobile Commons requests."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:131 dosomething_user/dosomething_user.address.inc:24 dosomething_user/dosomething_user.features.field_instance.inc:334 dosomething_user/dosomething_user.views_default.inc:429
+msgid "First Name"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:155;173
+msgid "(555) 555-5555"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:179
+msgid "Share"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:241
+msgid "This SMS Game is not properly configured."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:261
+msgid "Please provide a valid telephone number."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:290
+msgid "Hey, you entered this number already!"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.forms.inc:350
+msgid "Are you sure you want to remove this signup?  This cannot be undone."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:42
+msgid "Signup Data Form"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:49
+msgid "Collect additional signup data"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:54
+msgid "Configuration"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:67
+msgid "Prompt after signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:69
+msgid "If checked, the form modal will be displayed after the user first signs up."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:73
+msgid "Allow skip"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:75
+msgid "If checked, the form modal will provide a Skip button when the user is first prompted."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:85
+msgid "Prevent Old People from submitting"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:87
+msgid "If checked, Old People will be unable to submit the form."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:91
+msgid "Old People copy"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:93
+msgid "The copy displayed in the modal form for Old People."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:103
+msgid "Link text"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:105
+msgid "This is label of the link in \"Stuff You Need\" which opens the form modal."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:109
+msgid "Form header"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:111
+msgid "This is the headline that appears in the form modal."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:115 dosomething_zendesk/dosomething_zendesk.admin.inc:50
+msgid "Form copy"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:117
+msgid "This is the copy that appears above the form elements."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:122
+msgid "Form Elements"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:128
+msgid "Collect user address"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:130
+msgid "If checked, collect the user address and save to profile."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:138
+msgid "Select Shipment Item"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:141
+msgid "When the User submits the form, a User Shipment will be created for this Item."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:151
+msgid "Collect signup reason"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:153
+msgid "If checked, collect the reason why the user signed up for the campaign."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:157
+msgid "Signup Reason Label"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:159
+msgid "This is the label for the field which collects the signup reason. e.g. <em>Tell us why you would like to receive Thumb Socks for Thumb Wars</em>."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:169
+msgid "Confirmation message"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:171
+msgid "This is the message displayed after the user submits the form."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:175
+msgid "Form submitted copy"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:200
+msgid "Signup Data Form Link text is mandatory."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:205
+msgid "Signup Data Form Confirmation message is mandatory."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.signup_data_form.inc:374
+msgid "Skip"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.views_default.inc:185 dosomething_sms/dosomething_sms.admin.inc:23
+msgid "Node"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.views_default.inc:187 dosomething_signup/dosomething_signup.module:247
+msgid "Signup sid"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.views_default.inc:193
+msgid "Signups: %1"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.views_default.inc:194 dosomething_signup/dosomething_signup.module:228;231
+msgid "Signups"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:24
+msgid "Third Party Opt-Ins"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:33 dosomething_signup/dosomething_signup.info:0
+msgid "DoSomething Signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:34
+msgid "Admin configuration form for DoSomething Signup."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:66;51
+msgid "Signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:86
+msgid "Administer Third Party Communications"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:87
+msgid "Manage Mobile Commons/MailChimp Opt-in IDs."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:90
+msgid "View any signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:91
+msgid "View any signup."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:232
+msgid "Dosomething Signups table."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:248
+msgid "Signup sid that references a signup."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:262
+msgid "Signup Sid"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:267
+msgid "Signup node nid."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:281
+msgid "Signup Node Nid"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:300
+msgid "Signup User"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:304
+msgid "Date submitted"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:305
+msgid "Date submitted."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:532
+msgid "for"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:534
+msgid "You're signed up"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:535
+msgid "Get started below."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:548
+msgid "find a campaign"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:549
+msgid "Sweet, we'll send you an email as soon as @title re-opens. In the meantime, !link you can do right now."
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:25
+msgid "Admin form to manage custom opt-ins"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.module:42
+msgid "Remove signup"
+msgstr ""
+
+#: dosomething_signup/dosomething_signup.info:0
+msgid "Provides Signup table and functionality."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:16 dosomething_sms/dosomething_sms.module:31
+msgid "Add SMS Workflow"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:21
+msgid "ID"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:22;76
+msgid "Endpoint"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:24
+msgid "Status"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:25
+msgid "MMS Response"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:26
+msgid "Ask Quantity"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:27
+msgid "Ask Why Participated"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:28
+msgid "Submit Reportback"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:29
+msgid "Campaign Opt-out"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:30
+msgid "Campaign Completed"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:40;91
+msgid "Enabled"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:40
+msgid "Disabled"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:84
+msgid "Select the campaign this workflow is for."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:96
+msgid "This title is used internally to describe this workflow. e.g. <em>Comeback Clothes 2014.</em>"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:99
+msgid "Human readable title"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:135
+msgid "Alpha-numeric and dashes only."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:164
+msgid "Development"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:167
+msgid "These settings should always be disabled in production."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:171
+msgid "Enable logging"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:172
+msgid "Logs requests to any SMS Workflow endpoint."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:177
+msgid "Bypass IP checks"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.admin.inc:178
+msgid "Disables check for incoming MobileCommons IP."
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:57
+msgid "Administer dosomething_sms module"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:58
+msgid "Administer access to everything in module"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:70
+msgid "SMS Workflow"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:15
+msgid "SMS Receiver for Mobile Commons mData Requests"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:23
+msgid "SMS Workflows"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.module:24
+msgid "Overview of all SMS Workflows"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.info:0
+msgid "DoSomething SMS"
+msgstr ""
+
+#: dosomething_sms/dosomething_sms.info:0
+msgid "Provides SMS integration for DoSomething.org"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/gateways/dosomething_sms_game_mobilecommons_paths/dosomething_sms_game_mobilecommons_paths.inc:4
+msgid "Do Something Game Mobile Commons Paths"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/gateways/dosomething_sms_game_mobilecommons_paths/dosomething_sms_game_mobilecommons_paths.inc:5
+msgid "Controls next Mobile Commons path to opt the user into. For use with campaign tips and SMS games."
+msgstr ""
+
+#: dosomething_sms/plugins/activity/gateways/start_campaign/start_campaign.inc:4
+msgid "Start Campaign Gateway"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/gateways/start_campaign/start_campaign.inc:5
+msgid "Transitions user from transactional Mobile Commons campaign to the actual campaign."
+msgstr ""
+
+#: dosomething_sms/plugins/activity/prompts/mms_prompt/mms_prompt.inc:4
+msgid "MMS Prompt"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/prompts/mms_prompt/mms_prompt.inc:5
+msgid "Prompt for and expect to receive an MMS in return"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/prompts/mobilecommons_opt_in_prompt/mobilecommons_opt_in_prompt.inc:4
+msgid "Mobile Commons Opt-In Prompt"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/prompts/mobilecommons_opt_in_prompt/mobilecommons_opt_in_prompt.inc:5
+msgid "Opt the user into a specified Mobile Commons opt-in path, and suspend the workflow until a response is received."
+msgstr ""
+
+#: dosomething_sms/plugins/activity/reportback/dosomething_sms_submit_reportback/dosomething_sms_submit_reportback.inc:7
+msgid "DoSomething SMS Submit Report Back"
+msgstr ""
+
+#: dosomething_sms/plugins/activity/reportback/dosomething_sms_submit_reportback/dosomething_sms_submit_reportback.inc:8
+msgid "Creates or updates a report back delivered via SMS."
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:951
+msgid "<ul>\r\n<li><p><strong> - None - </strong>: Defaults to standard row of 3 images, uses the Image node's Square field.</p></li>\r\n<li><p><strong>2 column</strong>: Row of 2 square images, text to side, uses the Image node's Thumbnail field.</p></li>\r\n<li><p><strong>3 column (short)</strong>: Row of 3 shorter rectangular images, uses the Image node's Thumbnail field.</p></li>\r\n</ul>\r\n"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:959
+msgid "Blocks"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:964
+msgid "Gallery Item"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:965
+msgid "Gallery Style"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:966
+msgid "Gallery Title"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:968
+msgid "Image Description"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:969
+msgid "Image Title"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:973
+msgid "Provider"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:976
+msgid "The ID of the Youtube video <strong> (comes after the ?v=) </strong>"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.field_instance.inc:978
+msgid "Video ID"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.features.inc:25
+msgid "Static content"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.info:0
+msgid "DoSomething Static Content"
+msgstr ""
+
+#: dosomething_static_content/dosomething_static_content.info:0
+msgid "Content type and theme function definitions for the Static Content type"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:294
+msgid "If set, the Partner name will link to the given value within the \"In partnership with\" section."
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:296
+msgid "Is Sponsor"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:297
+msgid "Name"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:298
+msgid "Partner Logo"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.features.field_instance.inc:299
+msgid "Partner URL"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.info:0
+msgid "DoSomething Taxonomy"
+msgstr ""
+
+#: dosomething_taxonomy/dosomething_taxonomy.info:0
+msgid "Exports enterprise taxonomy to a feature"
+msgstr ""
+
+#: dosomething_user/dosomething_user.address.inc:34 dosomething_user/dosomething_user.features.field_instance.inc:335 dosomething_user/dosomething_user.views_default.inc:430
+msgid "Last Name"
+msgstr ""
+
+#: dosomething_user/dosomething_user.address.inc:72 dosomething_user/dosomething_user.module:349
+msgid "Hmmm, we couldn’t find that address. Please try again."
+msgstr ""
+
+#: dosomething_user/dosomething_user.address.inc:77
+msgid "Hmmm, we couldn’t find that address. Did you mean:"
+msgstr ""
+
+#: dosomething_user/dosomething_user.admin.inc:14
+msgid "Enable Clean Slate Form."
+msgstr ""
+
+#: dosomething_user/dosomething_user.admin.inc:16
+msgid "Allows staff user access to delete all activity for their account. This should be disabled on production."
+msgstr ""
+
+#: dosomething_user/dosomething_user.admin.inc:31
+msgid "Clean Slate has been disabled."
+msgstr ""
+
+#: dosomething_user/dosomething_user.admin.inc:43
+msgid "Clean Slate Me"
+msgstr ""
+
+#: dosomething_user/dosomething_user.admin.inc:54
+msgid "Clean Slate form submitted for User %uid"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:331
+msgid "Address"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:332 dosomething_user/dosomething_user.views_default.inc:431
+msgid "Birthday"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:333
+msgid "Cell #"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:336
+msgid "Partner / Sponsor"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:337
+msgid "This field may be set if a User has been programatically created."
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:338
+msgid "Under Thirteen"
+msgstr ""
+
+#: dosomething_user/dosomething_user.features.field_instance.inc:339
+msgid "User Registration Source"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:222
+msgid "Content Search"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:240
+msgid "Updated date"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:241
+msgid "Published"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:242
+msgid "Cause (field_cause)"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:243
+msgid "Has new content"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:412
+msgid "Search users"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:428
+msgid "Mobile"
+msgstr ""
+
+#: dosomething_user/dosomething_user.views_default.inc:432
+msgid "Last login"
+msgstr ""
+
+#: dosomething_user/dosomething_user_valid_address.inc:10
+msgid "Development integration?"
+msgstr ""
+
+#: dosomething_user/dosomething_user_valid_address.inc:11
+msgid "Check if NOT on a production environment"
+msgstr ""
+
+#: dosomething_user/dosomething_user_valid_address.inc:17
+msgid "UPS access license number"
+msgstr ""
+
+#: dosomething_user/dosomething_user_valid_address.inc:23
+msgid "UPS username"
+msgstr ""
+
+#: dosomething_user/dosomething_user_valid_address.inc:29
+msgid "UPS password"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:55
+msgid "UPS API Configuration"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:56
+msgid "UPS integration that provices address validation"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:90
+msgid "Administer UPS address validation"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:91
+msgid "Manage UPS api key, username & password"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:94
+msgid "Edit user information"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:95
+msgid "Can edit any user info form."
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:354
+msgid "Hmmm, we couldn’t find that address. Did you mean: "
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:849
+msgid "Info"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:883
+msgid "The two letter state code."
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:887
+msgid "Picture"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:895
+msgid "Upload a picture"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:1008
+msgid "@type @identifier @id deleted."
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:974
+msgid "dosomething_user"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:974
+msgid "Table %tbl_name"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:39
+msgid "address"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:46 dosomething_user/dosomething_user.info:0
+msgid "DoSomething User"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:47
+msgid "Admin configuration form for DoSomething User."
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:64
+msgid "Edit info"
+msgstr ""
+
+#: dosomething_user/dosomething_user.module:72
+msgid "Clean Slate"
+msgstr ""
+
+#: dosomething_user/dosomething_user.info:0
+msgid "Functionality for users on DoSomething."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:27
+msgid "Authentication"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:31
+msgid "Subdomain"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:37
+msgid "Username"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:43
+msgid "Token"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:45
+msgid "Do not share this token publicly."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:56
+msgid "Form Header"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:57
+msgid "Copy displayed in the form header."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:63
+msgid "Textarea Label"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:64
+msgid "Label displayed above the textarea."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:76
+msgid "Available Zendesk Groups"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:90
+msgid "Terms: Cause"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.admin.inc:113
+msgid "Nodes: Grouped Campaigns"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:88
+msgid "Question about"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:162
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:179
+msgid "Thanks for submitting your question."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:180
+msgid "We'll send a response to"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:181
+msgid "shortly."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:185
+msgid "Sorry, there was an error with your request. Please try again."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:15
+msgid "Zendesk settings"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.module:16
+msgid "Manage Zendesk settings."
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.info:0
+msgid "DoSomething Zendesk"
+msgstr ""
+
+#: dosomething_zendesk/dosomething_zendesk.info:0
+msgid "Functionality for Zendesk integration."
+msgstr ""
+
